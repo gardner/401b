@@ -86,6 +86,7 @@
 
         for (var i = 0; i < providers.length; i++) {
             var li = document.createElement('li');
+            li.innerHTML = li.innerHTML + providers[i]['name'];            
             li.appendChild(document.createTextNode(providers[i]['name']));
         }
 
