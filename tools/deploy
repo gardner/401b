@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+
+rsync -e "ssh $SSH_OPTS" --bwlimit=2000 -av ./ four01b@spalding.dreamhost.com:401b.org/
