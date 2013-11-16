@@ -1,5 +1,3 @@
 #!/bin/bash
 
-
-
-rsync -e "ssh $SSH_OPTS" --bwlimit=2000 -av ./ four01b@spalding.dreamhost.com:401b.org/
+rsync -e "ssh $SSH_OPTS" --bwlimit=2000 --exclude .git -av ./ four01b@spalding.dreamhost.com:401b.org/
