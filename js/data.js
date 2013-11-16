@@ -1,6 +1,6 @@
 var providers = [
 	{"id":1,"name":"Fidelity investments","phone":"1 (800) 835-5097","SRI":"Gabelli SRI Fund"},
-	{"id":2,"name":"Vanguard","phone":"1 (877) 662-7447","SRI":"FTSE Social Index Fund"
+	{"id":2,"name":"Vanguard","phone":"1 (877) 662-7447","SRI":"FTSE Social Index Fund"},
 	{"id":3,"name":"Merrill Lynch","phone":"1 (888) 654-6837","SRI":"Merrill Edge"},
 	{"id":4,"name":"ING","phone":"1 (800) 992-0180","SRI":"ESG Managers Portfolios","Holdings":"Top Holdings: Neuberger Berman Socially Responsive Fund, Parnassus Equity Income Fund, PAX World Small Cap Fund, Ariel Fund
 "},
