@@ -1,0 +1,59 @@
+html { 
+  background: url(img/bg.jpg) no-repeat left center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+.header {
+    background: url(img/bg.jpg) no-repeat left center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    margin: 0px;
+    height: 19%;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1000;
+}
+.content {
+    opacity: 0.85;
+    background-color: #121059;
+    color: white;
+    padding: 3%;
+    border: solid 1px white;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    width: 68%;
+}
+.thermo {
+    opacity: 0.85;
+    background-color: #121059;
+    color: white;
+    padding: 3%;
+    border: solid 1px white;
+    position: fixed;
+    left: 2%;
+    top: 20%;
+    width: 10%;
+    height: 65%;
+}
+iframe {
+    border: 0;
+    float: right;
+    margin:0 15px 15px 15px;
+    z-index:1        
+}
+a {
+    color: orange;
+}
+.v { display: none; }
+.genetify_disabled { display: none !important; } 
+.genetify_enabled { display: block !important; } 
