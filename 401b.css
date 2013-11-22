@@ -6,6 +6,19 @@ html {
   background-size: cover;
   height: 100%;
 }
+.footer {
+    position: fixed;
+	width: 20%;
+    left: 80%;
+    line-height: 2em;
+    height: 2em;
+    text-align: middle;
+    bottom: 0;
+    background-color: #121059;
+    color: white;
+    border-top: thin solid white;
+    border-left: thin solid white;
+}
 .header {
     background: url(/img/bg.jpg) no-repeat left center fixed; 
     -webkit-background-size: cover;
