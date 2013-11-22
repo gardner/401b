@@ -1,6 +1,5 @@
 #!/bin/bash
 
-mkdir -p companies
 for f in $(cat data/providers.txt); do
   cp blank.html $f
 done
